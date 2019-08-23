@@ -1,0 +1,25 @@
+body{
+    background-repeat:no-repeat; 
+    background-attachment:fixed; 
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SA2y9ZOviqpkb4ff/videoblocks-green-wheat-field-on-a-background-of-mountains_rsgjefkkzz_thumbnail-full01.png');
+}
+#topbar{
+    position: fixed;
+    top: 0px;
+    min-width: 100%;
+    z-index: 1;
+}
+#transbox{
+    background-color:whitesmoke;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    max-width: 40%;
+    min-width: 40%;
+    min-height: 80%;
+    max-height: 80%;
+}
