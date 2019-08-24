@@ -15,7 +15,8 @@ html *{
 body{
     background-repeat:no-repeat; 
     background-attachment:fixed; 
-    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SA2y9ZOviqpkb4ff/videoblocks-green-wheat-field-on-a-background-of-mountains_rsgjefkkzz_thumbnail-full01.png');
+    background-image: url('https://i.pinimg.com/originals/cc/94/fb/cc94fb206ff0e9348e9137ccb694b2d1.jpg');
+    background-size: 100% 100%;
 }
 #topbar{
     position: fixed;
