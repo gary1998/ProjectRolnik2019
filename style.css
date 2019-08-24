@@ -3,11 +3,8 @@
 html *{
     font-family: 'Ubuntu';
 }
-#regBtn{
-    float: right;
-}
 #exploreBtn{
-    float: left;
+    min-width: 100%;
 }
 .edge{
     font-family: 'Permanent Marker';
