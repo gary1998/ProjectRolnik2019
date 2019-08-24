@@ -47,7 +47,7 @@ $(document).ready(function()
         var provider = new firebase.auth.TwitterAuthProvider();
         firebase.auth().signInWithPopup(provider).then(function(result) {
             Toastify({
-                text: "Logged in as "+result.user.email,
+                text: "Logged in as "+result.user.displayName,
                 backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)"
             }).showToast();
             sessionStorage.setItem("logged_in",result.user.displayName);
