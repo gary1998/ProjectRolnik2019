@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+html *{
+    font-family: 'Ubuntu';
+}
+#regBtn{
+    float: right;
+}
+#exploreBtn{
+    float: left;
+}
+.edge{
+    font-family: 'Permanent Marker';
+}
 body{
     background-repeat:no-repeat; 
     background-attachment:fixed; 
@@ -6,6 +20,15 @@ body{
 #topbar{
     position: fixed;
     top: 0px;
+    min-width: 100%;
+    z-index: 1;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color:black;
+    position: fixed;
+    bottom: 0px;
     min-width: 100%;
     z-index: 1;
 }
@@ -20,8 +43,8 @@ body{
     align-content: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8%;
-    margin-bottom: 8%;
+    margin-top: 6%;
+    margin-bottom: 6%;
     max-width: 40%;
     min-width: 40%;
     min-height: 80%;
