@@ -10,9 +10,11 @@
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
         <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/firebasejs/6.4.1/firebase.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <script src="semantic/dist/semantic.js"></script>
+        <script type="text/javascript" src="semantic/dist/semantic.js"></script>
+        <script type="text/javascript" src='main.js'></script>
     </head>
     <body>
         <div class="ui top horizontal inverted labeled menu" id="topbar">
@@ -32,17 +34,17 @@
             <a href="#" class="item">
                 Donate
             </a>
-            <a class="item right" id="profile">
+            <a id='google' class="item right" id="profile">
                 <abbr title='Login Using Google'>
                     <i class="google icon"></i>
                 </abbr>
             </a>
-            <a class="item" id="profile">
+            <a id='fb' class="item" id="profile">
                 <abbr title='Login Using Facebook'>
                     <i class="facebook icon"></i>
                 </abbr>
             </a>
-            <a class="item" id="profile">
+            <a id='twitter' class="item" id="profile">
                 <abbr title='Login Using Twitter'>
                     <i class="twitter icon"></i>
                 </abbr>
@@ -68,6 +70,4 @@
             <label>Copyright &copy; Team EDGE 2019</label>
         </footer>
     </body>
-    <script>
-    </script>
 </html>
