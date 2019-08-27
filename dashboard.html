@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Project Rolnik 2019 by Team EDGE</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Gaurav Goswami">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Project Rolnik 2019 by Team EDGE">
+        <link rel="icon" href="images/edge_logo.png" type="image/icon type">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
+        <link rel="stylesheet" type="text/css" href="dashboard.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/firebasejs/6.4.1/firebase.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script type="text/javascript" src="semantic/dist/semantic.js"></script>
+        <script type="text/javascript" src='dashboard.js'></script>
+    </head>
+    <body>
+        <div class="ui top horizontal labeled menu" id="topbar">
+            <a class="item edge">
+                <img src='images/edge_logo.png' height='32' width='8'>&nbsp;
+                Team EDGE
+            </a>
+            <a href="index.html" class="item">
+                <strong>Project Rolnik 2019</strong>
+            </a>
+            <a href="#" class="item">
+                About Team EDGE
+            </a>
+            <a href="#" class="item">
+                Contact
+            </a>
+            <a href="#" class="item">
+                Donate
+            </a>
+            <a id='google' class="item right" id="profile">
+                <abbr title='Logged in'>
+                    User &nbsp;<i class="user icon"></i>
+                </abbr>
+            </a>
+        </div>
+
+            <div id='cameraBtn' class="ui labeled button" tabindex="0">
+                <div class="ui button">
+                    <i class="camera icon"></i> Camera
+                </div>
+                <a class="ui basic label">
+                    30 FPS
+                </a>
+            </div>
+
+            <div id='imageBtn' class="ui labeled button" tabindex="0">
+                <div class="ui button">
+                    <i class="image icon"></i> Image
+                </div>
+                <a class="ui basic label">
+                    JPG/PNG
+                </a>
+            </div>
+
+            <input type='file' accept="image/png, image/jpeg" id='fileChooser' style="display: none;">
+
+            <div id='canvas' class="ui placeholder segment">
+                <div class="ui icon header">
+                    <i class="outline icon"></i>
+                    Start Camera or Upload any Image
+                </div>
+            </div>
+
+            <div id='resultArea' class="ui placeholder segment">
+                <div id='items'>
+                    <label>Detected items are listed here...</label>
+                </div>
+            </div>
+
+            <button id='reportBtn' class="ui basic button">
+                <i class="icon file"></i>
+                Generate Report
+            </button>
+    </body>
+</html>

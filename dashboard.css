@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+html *{
+    font-family: 'Ubuntu';
+}
+
+.edge{
+    font-family: 'Permanent Marker';
+}
+
+#topbar{
+    position: fixed;
+    top: 0px;
+    min-width: 100%;
+    z-index: 1;
+}
+
+#cameraBtn{
+    position: fixed;
+    float: left;
+    left: 10px;
+    top: 12%;
+}
+
+#imageBtn{
+    position: fixed;
+    float: right;
+    right: 10px;
+    top: 12%;
+}
+
+#canvas{
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    margin-top: 10%;
+    min-width: 75%;
+    max-width: 75%;
+    left: 10px;
+    top: 1%;
+    max-height: 400px;
+    min-height: 400px;
+}
+
+#resultArea{
+    font-family: 'Ubuntu';
+    border: thick 2px grey;
+    position: fixed;
+    margin-top: 10%;
+    min-width: 20%;
+    max-width: 20%;
+    right: 10px;
+    top: 1%;
+    max-height: 400px;
+    min-height: 400px;
+    overflow: scroll;
+}
+
+#reportBtn{
+    position: fixed;
+    bottom: 10px;
+    left: 45%;
+}
+
+#items{
+    font-size: 22px;
+}
+
+#img{
+    height: 380px;
+}
