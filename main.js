@@ -1,5 +1,7 @@
 $(document).ready(function()
 {
+    $('#transBox').animate({opacity: "+=0.8"},1000);
+    
     var firebaseConfig = {
         apiKey: "AIzaSyA7hoOJfiQF_JX99e7doHy48Zpv_i6IKqk",
         authDomain: "projectrolnik2019.firebaseapp.com",
